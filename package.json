@@ -13,7 +13,7 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
@@ -26,8 +26,12 @@
     "gatsby-plugin-sharp": "^2.6.12",
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
+    "imagemin-pngquant": "^5.0.1",
+    "install": "^0.13.0",
     "nanoid": "^3.1.10",
     "node-sass": "^4.14.1",
+    "npm": "^7.20.5",
+    "pngquant-bin": "^3.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
