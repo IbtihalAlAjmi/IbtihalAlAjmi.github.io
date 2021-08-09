@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import Resume from '../../static/resume.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -10,8 +11,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Welcome! I am',
-  name: 'Ibithal Al Ajmi',
-  subtitle: 'Graduated with a BBA in Finance',
+  name: 'Ibithal Al Ajmi.',
+  subtitle: 'Graduated with a BBA in Finance.',
   cta: '',
 };
 
@@ -24,7 +25,7 @@ export const aboutData = {
     'BBA in Finance at the University of Michigan Dearborn. Seeking a full-time job to continue developing my understanding and experience in calculating financial ratios, and interpreting the present and future values.',
   paragraphThree:
     'I am also interested in a wide range of business opportunities that will give me the ability to apply my education to a profession.',
-  resume: '../resume/resume.pdf', // if no resume, the button will not show up
+  resume: Resume, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
