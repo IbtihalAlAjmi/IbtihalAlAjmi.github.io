@@ -24,7 +24,7 @@ export const aboutData = {
     'BBA in Finance at the University of Michigan Dearborn. Seeking a full-time job to continue developing my understanding and experience in calculating financial ratios, and interpreting the present and future values.',
   paragraphThree:
     'I am also interested in a wide range of business opportunities that will give me the ability to apply my education to a profession.',
-  resume: '../resume/Ibtihal_Al Ajmi_CV.docx', // if no resume, the button will not show up
+  resume: '../resume/resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -39,7 +39,7 @@ export const projectsData = [
     info3: 'Schedule patients for their doctor appointments.',
     info4:
       'Check patients insurances either auto or health insurance such as BCBS, Medicaid, Medicare, Progressive, Allstate, Memic, and Blue care.',
-    url: '',
+    url: 'https://www.yelp.com/biz/getwell-medical-transport-southfield',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -64,6 +64,17 @@ export const projectsData = [
     url: 'https://www.bankmuscat.com/en/about/pages/default.aspx',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'mes.jpg',
+    title: 'Curriculum Practical Training Internship - Manufacturing Engineering Solutions',
+    info: 'Payable and receiving accounts for suppliers of MES.',
+    info2: 'Awarded certificates of achievements in Human Resources Management.',
+    info3: 'Financial Services.',
+    info4: 'Attended intensive training course.',
+    url: 'https://mesols.webstarts.com/global_training_services.html',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
@@ -76,11 +87,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
