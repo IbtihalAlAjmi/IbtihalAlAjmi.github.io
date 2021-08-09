@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/ibtihalalajmi.github.io',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
