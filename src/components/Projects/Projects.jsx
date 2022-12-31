@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Work Experience" />
           {projects.map((project) => {
-            const { title, info, info2, info3, info4, url, repo, img, id } = project;
+            const { title, info, info2, info3, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -50,7 +50,6 @@ const Projects = () => {
                           </li>
                           <li className="mb-4">{info2 || ''}</li>
                           <li className="mb-4">{info3 || ''}</li>
-                          <li className="mb-4">{info4 || ''}</li>
                         </ul>
                       </div>
                       {repo && (

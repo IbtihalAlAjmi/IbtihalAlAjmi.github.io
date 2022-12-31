@@ -10,9 +10,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Welcome! I am',
+  title: "Hi, I'm ",
   name: 'Ibithal Al Ajmi.',
-  subtitle: 'Graduated with a BBA in Finance.',
+  subtitle: 'Welcome to my career portfolio.',
   cta: '',
 };
 
@@ -20,11 +20,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am an alumna Business Student from the University of Michigan-Dearborn, with a Bachelor Degree in Finance, working for Getwell Medical Transport Co. and Clearpath Diagnostics.',
+    "My name is Ibtihal Al Ajmi. I graduated from the University of Michigan Dearborn with a bachelor's degree in Business administration, currently working for EY as an Audit Associate ",
   paragraphTwo:
-    'BBA in Finance at the University of Michigan Dearborn. Seeking a full-time job to continue developing my understanding and experience in calculating financial ratios, and interpreting the present and future values.',
+    'I am a Well-rounded and reliable person with outstanding interpersonal and communication skills, driven to succeed and advance critical goals',
   paragraphThree:
-    'I am also interested in a wide range of business opportunities that will give me the ability to apply my education to a profession.',
+    'As well I am hardworking and dedicated person who follows directions and effective team player to achieve the mission and the vision of the organization and ready to take on new challenges.',
   resume: Resume, // if no resume, the button will not show up
 };
 
@@ -32,55 +32,53 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'getwell.jpg',
-    title: 'Financial Clerk - Getwell Medical Transport Co & Clearpath Diagnostic',
-    info: 'Work with both paper documents and electronic files, and do routine tasks like data entry, organization, cross-referencing, scanning, copying, and retrieval',
+    img: 'ey_logo.png',
+    title: 'EY, Ernst & Young, Audit Associate',
+    info: 'Establishing clear communication with the clients in order to collect all the necessary data/information',
+    info2: 'Set up and maintain audit files, prepare leads, etc.',
+    info3: 'Support the planning, execution, and delivery of assurance engagements',
+    // info4: ''
+    url: 'https://www.ey.com/en_om',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'lng_logo.jpg',
+    title:
+      'Oman Liquefied Natural Gas, Oman LNG L.L.C (Job Seekers Program-Phase 3), HR Consultant Trainee',
+    info: 'Performed trainees onboarding, and analyzed exit interviews. Worked on the People Survey of 2022, and Unique Job Descriptions JDs',
     info2:
-      'Responsible for keeping track of money owed to us by customers, preparing invoices, and updating records',
-    info3: 'Schedule patients for their doctor appointments.',
-    info4:
-      'Check patients insurances either auto or health insurance such as BCBS, Medicaid, Medicare, Progressive, Allstate, Memic, and Blue care.',
-    url: 'https://www.yelp.com/biz/getwell-medical-transport-southfield',
+      'Summed up MYR & EYR (Mid and End - year review). Manageed MOC Reports (Management of Change)',
+    info3: 'Founder of Creative OLNG (Mantel Health Program)',
+    url: 'https://omanlng.co.om/en/Pages/home.aspx',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'leftys.jpg',
-    title: "Assistant Manager - Lefty's Cheesesteak and Hoagies",
-    info: 'Directing employees through their daily routines.',
-    info2: 'Ensuring that customers are receiving a satisfactory experience.',
-    info3: 'Responsible for daily cash counts and deposits.',
-    info4: 'Improving the quality of service and assisting with employees skills and abilities.',
-    url: 'https://eatleftys.com/',
+    img: 'dotnxt_logo.png',
+    title: 'Dotnxt Sponsored by Occidental Oman, Digital Marketing Intern',
+    info: 'Create a Tourism Platform for tourists by involving in a Boot Camp for 10 days at Sheraton Hotels in Muscat, Oman',
+    info2: 'Completed all phases from Dotnxt training',
+    info3: 'Granted certificate of completion of Dotnxt Phase 3',
+    // info4: '',
+    url: 'https://dotnxt.om/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'bankmuscat.jpg',
-    title: 'Personal Banker - Bank Muscat',
-    info: 'Customer service.',
-    info2: 'Providing periodic reports and analysis.',
-    info3: 'Referring clients to other financial experts when necessary.',
-    info4: 'Monitoring client accounts and keeping information up-to-date.',
-    url: 'https://www.bankmuscat.com/en/about/pages/default.aspx',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'mes.jpg',
-    title: 'Curriculum Practical Training Internship - Manufacturing Engineering Solutions',
-    info: 'Payable and receiving accounts for suppliers of MES.',
-    info2: 'Awarded certificates of achievements in Human Resources Management.',
-    info3: 'Financial Services.',
-    info4: 'Attended intensive training course.',
-    url: 'https://mesols.webstarts.com/global_training_services.html',
+    img: 'oman_broadband_logo.jpg',
+    title: 'Oman Broadband (Tamkeen Program), Business Relations Trainee',
+    info: 'Created an Escalation Matrix',
+    info2: 'Selling Services for customers such as ODF, ODT, SCT, ITHCA, Onsor, and DTM',
+    info3: 'Created CSR reports, and SLA’s agreement Guidelines',
+    url: 'https://www.omanbroadband.om/',
     repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Interested in hiring me? Talk to me on LinkedIn',
+  cta: 'Have any questions? Connect with me on LinkedIn',
   btn: 'Connect',
   email: 'https://www.linkedin.com/in/ibtihal-al-ajmi/',
 };
